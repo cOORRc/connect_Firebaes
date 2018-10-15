@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "929700015187",
+    "firebase_url": "https://fir-proj-13933.firebaseio.com",
+    "project_id": "fir-proj-13933",
+    "storage_bucket": "fir-proj-13933.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929700015187:android:9bd3964bb79b728b",
+        "android_client_info": {
+          "package_name": "com.example.chayapa.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929700015187-c2gsfa9fdt37r7ncr27d1bc17qfl585g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV7y077Lgw6Qrkj8PlR_o43Tzk3yBZlfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">firebaseapp</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="sign_in">Register</string>
+    <string name="log_in">Log In</string>
+
+</resources>

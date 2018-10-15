@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cef1fd"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ETpass"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ETemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="23dp"
+        android:background="#A4EAD6"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/sign_in"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/ETemail"
+        android:layout_width="356dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvregis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <ImageView
+        android:id="@+id/imlogo"
+        android:layout_width="148dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/tvwel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        app:srcCompat="@drawable/re" />
+
+    <TextView
+        android:id="@+id/tvregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imlogo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:text="Register" />
+</RelativeLayout>
